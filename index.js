@@ -1,6 +1,7 @@
 // const fs = require('fs');
 // const path = require('path');
 
+
 const express = require('express');
 const server = express();
 
@@ -17,4 +18,4 @@ server.use('*', (req, res) => {
 res.send('<h1>Hello Heroku</h1>');
 });
 
-module.exports = server;
+// module.exports = server;
